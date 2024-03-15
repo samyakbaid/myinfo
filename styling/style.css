@@ -43,6 +43,7 @@
     font-style: italic;
     text-align: center;
     color: #192655;
+    text-wrap: wrap;
 }
 .frame{
     border-radius: 50%;
@@ -51,10 +52,13 @@
 
 }
 .img_cont{
+    
     position: relative;
     display: flex;
-    justify-content: start;
-    top: -150px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 10px;
     left: 0px;
     width: 100vw;
     text-align: center;
@@ -78,4 +82,7 @@
 }
 .projects{
     margin-top: 500px;
+}
+.lead{
+    margin-top: 50px;
 }
