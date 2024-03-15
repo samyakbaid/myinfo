@@ -58,7 +58,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    top: 10px;
+    top: 100px;
     left: 0px;
     width: 100vw;
     text-align: center;
@@ -84,5 +84,5 @@
     margin-top: 500px;
 }
 .lead{
-    margin-top: 50px;
+    margin-top: 200px;
 }
