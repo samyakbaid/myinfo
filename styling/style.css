@@ -35,13 +35,15 @@
     font-size: 50px;
     min-width: fit-content;
     margin-top: 0px;
+    text-align: center;
 }
 .name_link{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: italic;
-    text-align: right;
+    text-align: center;
     color: #192655;
+    text-wrap: wrap;
 }
 .frame{
     border-radius: 50%;
@@ -50,10 +52,13 @@
 
 }
 .img_cont{
+    
     position: relative;
     display: flex;
-    justify-content: start;
-    top: -150px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 100px;
     left: 0px;
     width: 100vw;
     text-align: center;
@@ -77,4 +82,7 @@
 }
 .projects{
     margin-top: 500px;
+}
+.lead{
+    margin-top: 200px;
 }
